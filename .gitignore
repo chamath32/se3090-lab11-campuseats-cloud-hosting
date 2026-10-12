@@ -31,3 +31,7 @@ Thumbs.db
 *.log
 coverage/
 TestResults/
+
+# Submission documents
+*.docx
+*.zip
