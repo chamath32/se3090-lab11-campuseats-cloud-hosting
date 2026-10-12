@@ -78,9 +78,9 @@ function FoodArt({ item }) {
       <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
         <rect width="320" height="210" rx="26" fill={palette[2]} />
         <circle cx="64" cy="48" r="30" fill={palette[1]} opacity=".16" />
-        <path d="M117 46h88l-9 118h-70l-9-118Z" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
+        <path d="M117 46h88l-9 118h-70l-9-118Z" fill="#fffaf0" stroke="#064e3b" strokeWidth="5" />
         <path d="M124 91h75l-6 69h-63l-6-69Z" fill={palette[0]} opacity=".82" />
-        <path d="M162 46c10-18 22-26 37-29" fill="none" stroke="#0f172a" strokeWidth="5" strokeLinecap="round" />
+        <path d="M162 46c10-18 22-26 37-29" fill="none" stroke="#064e3b" strokeWidth="5" strokeLinecap="round" />
         <path d="M184 19c12 0 21 4 27 12-14 5-25 1-27-12Z" fill="#5f9c63" />
         <circle cx="231" cy="154" r="26" fill={palette[1]} opacity=".9" />
         <path d="M218 154h26M231 141v26" stroke="#fff7e8" strokeWidth="3" opacity=".8" />
@@ -92,7 +92,7 @@ function FoodArt({ item }) {
     return (
       <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
         <rect width="320" height="210" rx="26" fill={palette[2]} />
-        <path d="M73 148c31-68 143-88 181-24-42 45-138 59-181 24Z" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
+        <path d="M73 148c31-68 143-88 181-24-42 45-138 59-181 24Z" fill="#fffaf0" stroke="#064e3b" strokeWidth="5" />
         <path d="M93 135c35-43 111-56 143-18-41 25-100 34-143 18Z" fill={palette[0]} />
         <path d="m117 118 18-18m20 10 18-20m17 15 17-14" stroke={palette[1]} strokeWidth="9" strokeLinecap="round" />
         <circle cx="75" cy="52" r="24" fill={palette[1]} opacity=".14" />
@@ -104,12 +104,12 @@ function FoodArt({ item }) {
   return (
     <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
       <rect width="320" height="210" rx="26" fill={palette[2]} />
-      <ellipse cx="160" cy="140" rx="103" ry="34" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
-      <path d="M78 130c17-56 51-81 82-81s67 27 82 81" fill={palette[0]} stroke="#0f172a" strokeWidth="5" />
+      <ellipse cx="160" cy="140" rx="103" ry="34" fill="#fffaf0" stroke="#064e3b" strokeWidth="5" />
+      <path d="M78 130c17-56 51-81 82-81s67 27 82 81" fill={palette[0]} stroke="#064e3b" strokeWidth="5" />
       <circle cx="125" cy="91" r="18" fill={palette[1]} />
       <circle cx="170" cy="79" r="16" fill="#f7e7a8" />
       <circle cx="199" cy="105" r="19" fill="#6f9e5e" />
-      <path d="M85 132h150" stroke="#0f172a" strokeWidth="5" strokeLinecap="round" />
+      <path d="M85 132h150" stroke="#064e3b" strokeWidth="5" strokeLinecap="round" />
       <path d="M245 44c12 6 18 17 14 30-14 0-23-10-14-30Z" fill="#6c9d5d" />
     </svg>
   )
