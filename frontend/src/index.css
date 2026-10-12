@@ -1,65 +1,43 @@
 :root {
-  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  color: #064e3b;
-  background: #f0fdf4;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
-  /* Fresh Vivid Emerald / Mint Color Palette */
-  --emerald-950: #022c22;
-  --emerald-900: #064e3b;
-  --emerald-800: #065f46;
-  --emerald-700: #047857;
-  --emerald-600: #059669;
-  --emerald-500: #10b981;
-  --emerald-400: #34d399;
-  --emerald-300: #6ee7b7;
-  --emerald-200: #a7f3d0;
-  --emerald-100: #d1fae5;
-  --emerald-50:  #ecfdf5;
+  /* Campus Green & Deep Slate Palette */
+  --primary-50:  #ecfdf5;
+  --primary-100: #d1fae5;
+  --primary-200: #a7f3d0;
+  --primary-300: #6ee7b7;
+  --primary-400: #34d399;
+  --primary-500: #10b981;
+  --primary-600: #059669;
+  --primary-700: #047857;
+  --primary-800: #065f46;
+  --primary-900: #064e3b;
+  --primary-950: #022c22;
 
-  /* Primary Brand: Vibrant Emerald & Teal Gradient */
-  --primary: #059669;
-  --primary-hover: #047857;
-  --primary-gradient: linear-gradient(135deg, #059669 0%, #0d9488 100%);
-  --primary-soft: #ecfdf5;
-  --primary-glow: rgba(5, 150, 105, 0.28);
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+  --slate-50:  #f8fafc;
 
-  /* Secondary Accent: Electric Lime / Gold */
-  --accent-gold: #f59e0b;
-  --accent-lime: #84cc16;
-  --accent-cyan: #06b6d4;
-
-  /* Background & Surfaces */
-  --bg-page: #f2fbf6;
-  --card-bg: #ffffff;
-  --surface-muted: #f0fdf4;
-  --ink-primary: #064e3b;
-  --ink-secondary: #047857;
-  --ink-muted: #4b6358;
-  --line-subtle: #d1fae5;
-  --line-strong: #a7f3d0;
-  
-  --danger: #e11d48;
-  --danger-soft: #ffe4e6;
-
-  /* Modern Elevated Green Shadows */
-  --shadow-sm: 0 2px 6px rgba(4, 120, 87, 0.05);
-  --shadow: 0 14px 34px -4px rgba(4, 78, 59, 0.08), 0 4px 14px -2px rgba(4, 78, 59, 0.04);
-  --shadow-lg: 0 25px 50px -10px rgba(4, 78, 59, 0.16);
-
-  /* Legacy variable hooks for App.jsx compatibility */
-  --green: #047857;
-  --green-dark: #064e3b;
-  --green-soft: #ecfdf5;
-  --orange: #059669;
-  --orange-dark: #047857;
-  --cream: #f2fbf6;
-  --cream-deep: #e6f7ee;
-  --ink-soft: #4b6358;
-  --line: #d1fae5;
   --white: #ffffff;
+  --danger: #ef4444;
+  --danger-soft: #fef2f2;
+  
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 8px 20px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 20px 35px -5px rgba(15, 23, 42, 0.1), 0 10px 15px -5px rgba(15, 23, 42, 0.04);
 }
 
 * { box-sizing: border-box; }
@@ -68,13 +46,13 @@ body {
   margin: 0; 
   min-width: 320px; 
   min-height: 100vh; 
-  background: var(--bg-page); 
-  color: var(--ink-primary);
+  background: #f8fafc; 
+  color: var(--slate-900);
 }
 button, input { font: inherit; }
 button { cursor: pointer; }
-button:disabled { cursor: not-allowed; opacity: .62; }
-button:focus-visible, input:focus-visible { outline: 3px solid rgba(5, 150, 105, .4); outline-offset: 3px; }
+button:disabled { cursor: not-allowed; opacity: .6; }
+button:focus-visible, input:focus-visible { outline: 3px solid rgba(5, 150, 105, .35); outline-offset: 2px; }
 
 .sr-only {
   position: absolute;
