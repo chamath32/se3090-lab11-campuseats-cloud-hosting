@@ -63,14 +63,14 @@ function BrandMark() {
 
 function FoodArt({ item }) {
   const palette = [
-    ['#F8B35E', '#D95F35', '#FAE1A6'],
-    ['#8FBC68', '#EB8D45', '#F8D898'],
-    ['#F0A04B', '#A84C2B', '#F6C96C'],
-    ['#9FBE67', '#D36C36', '#F4D785'],
-    ['#EAB262', '#5A8A61', '#F8E3B0'],
-    ['#D68A42', '#7E9F57', '#F1C16B'],
-    ['#C6844B', '#F4DFC2', '#8A5A34'],
-    ['#A9C95E', '#F4D15D', '#EEF0B2'],
+    ['#FF5722', '#F4511E', '#FFF2ED'],
+    ['#10B981', '#059669', '#ECFDF5'],
+    ['#3B82F6', '#2563EB', '#EFF6FF'],
+    ['#F59E0B', '#D97706', '#FFFBEB'],
+    ['#8B5CF6', '#7C3AED', '#F5F3FF'],
+    ['#EC4899', '#DB2777', '#FDF2F8'],
+    ['#06B6D4', '#0891B2', '#ECFEFF'],
+    ['#14B8A6', '#0D9488', '#F0FDFA'],
   ][(item.id - 1) % 8]
 
   if (item.category === 'Drinks') {
@@ -78,9 +78,9 @@ function FoodArt({ item }) {
       <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
         <rect width="320" height="210" rx="26" fill={palette[2]} />
         <circle cx="64" cy="48" r="30" fill={palette[1]} opacity=".16" />
-        <path d="M117 46h88l-9 118h-70l-9-118Z" fill="#fffaf0" stroke="#174c3b" strokeWidth="5" />
+        <path d="M117 46h88l-9 118h-70l-9-118Z" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
         <path d="M124 91h75l-6 69h-63l-6-69Z" fill={palette[0]} opacity=".82" />
-        <path d="M162 46c10-18 22-26 37-29" fill="none" stroke="#174c3b" strokeWidth="5" strokeLinecap="round" />
+        <path d="M162 46c10-18 22-26 37-29" fill="none" stroke="#0f172a" strokeWidth="5" strokeLinecap="round" />
         <path d="M184 19c12 0 21 4 27 12-14 5-25 1-27-12Z" fill="#5f9c63" />
         <circle cx="231" cy="154" r="26" fill={palette[1]} opacity=".9" />
         <path d="M218 154h26M231 141v26" stroke="#fff7e8" strokeWidth="3" opacity=".8" />
@@ -92,7 +92,7 @@ function FoodArt({ item }) {
     return (
       <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
         <rect width="320" height="210" rx="26" fill={palette[2]} />
-        <path d="M73 148c31-68 143-88 181-24-42 45-138 59-181 24Z" fill="#fffaf0" stroke="#174c3b" strokeWidth="5" />
+        <path d="M73 148c31-68 143-88 181-24-42 45-138 59-181 24Z" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
         <path d="M93 135c35-43 111-56 143-18-41 25-100 34-143 18Z" fill={palette[0]} />
         <path d="m117 118 18-18m20 10 18-20m17 15 17-14" stroke={palette[1]} strokeWidth="9" strokeLinecap="round" />
         <circle cx="75" cy="52" r="24" fill={palette[1]} opacity=".14" />
@@ -104,12 +104,12 @@ function FoodArt({ item }) {
   return (
     <svg viewBox="0 0 320 210" role="img" aria-label={`${item.name} illustration`}>
       <rect width="320" height="210" rx="26" fill={palette[2]} />
-      <ellipse cx="160" cy="140" rx="103" ry="34" fill="#fffaf0" stroke="#174c3b" strokeWidth="5" />
-      <path d="M78 130c17-56 51-81 82-81s67 27 82 81" fill={palette[0]} stroke="#174c3b" strokeWidth="5" />
+      <ellipse cx="160" cy="140" rx="103" ry="34" fill="#fffaf0" stroke="#0f172a" strokeWidth="5" />
+      <path d="M78 130c17-56 51-81 82-81s67 27 82 81" fill={palette[0]} stroke="#0f172a" strokeWidth="5" />
       <circle cx="125" cy="91" r="18" fill={palette[1]} />
       <circle cx="170" cy="79" r="16" fill="#f7e7a8" />
       <circle cx="199" cy="105" r="19" fill="#6f9e5e" />
-      <path d="M85 132h150" stroke="#174c3b" strokeWidth="5" strokeLinecap="round" />
+      <path d="M85 132h150" stroke="#0f172a" strokeWidth="5" strokeLinecap="round" />
       <path d="M245 44c12 6 18 17 14 30-14 0-23-10-14-30Z" fill="#6c9d5d" />
     </svg>
   )
